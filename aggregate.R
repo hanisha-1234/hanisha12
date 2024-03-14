@@ -1,0 +1,8 @@
+require(ggplot2)
+data(diamonds)
+head(diamonds)
+aggregate(price~cut, diamonds, mean)
+tail(diamonds)
+aggregate(price~cut+color,diamonds,mean,na.rm=TRUE)
+aggregate(price~cut+color,diamonds,mean)
+aggregate(cbind(price,carat)~cut,diamonds,mean)
