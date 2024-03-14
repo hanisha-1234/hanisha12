@@ -7,7 +7,6 @@ dframe <- data.frame(
 
 # Print the data frame
 print(dframe)
-
 # Add an age column to the data frame
 dframe$Age <- c(41, 41, 15, 16, 21, 60)
 
